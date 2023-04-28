@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://ai.fakeopen.com/$1"
+    },
+    { "source": "/:path*", "destination": "/index.html" }
+  ]
+}
